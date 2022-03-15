@@ -20,6 +20,7 @@ class _ReelViewState extends State<ReelView> {
   intilazeProviderModel() {
     var reelProvider = Provider.of<ReelProvider>(context, listen: false);
     reelProvider.loadVideo(0);
+    //okok
     reelProvider.loadVideo(1);
     //  reelProvider.setInitialised(true);
   }
